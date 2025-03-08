@@ -1,19 +1,68 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>
-            CubeRunner Maps
-        </title>
-    </head>
-    <body>
-        <h1 style="text-align: left;">
-            About us
-        </h1>
-        <p1>
-            CubeRunner Studio is a team that mainly creates minecraft parkour maps, consisting of several Chinese map makers.
-            <br><br>
-            We've been creating parkour maps such as <i>The Parkour Island</i>, <i> Parkour Cubes</i> and more fun things!
-        </p1>
-    </body>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Cuberunner Maps</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Cuberunner Maps</a>
+            <ul class="nav-links">
+                <li><a href="#new">最新地图</a></li>
+                <li><a href="#maps">地图列表</a></li>
+                <li><a href="#about">关于我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 最新地图展示 -->
+    <section id="new" class="hero">
+        <div class="container">
+            <h1>最新发布：死亡跑酷</h1>
+            <div class="map-preview">
+                <img src="assets/images/map1-preview.jpg" alt="请输入文本">
+                <div class="map-info">
+                    <p>请输入文本</p>
+                    <a href="maps/map1.html" class="btn">查看详情</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 地图列表 -->
+    <section id="maps" class="map-list">
+        <div class="container">
+            <h2>所有地图项目</h2>
+            <div class="grid">
+                <!-- 地图项目1 -->
+                <div class="map-card">
+                    <img src="assets/images/map1-thumb.jpg" alt="请输入文本">
+                    <h3>请输入文本</h3>
+                    <p>版本：1.20+ | 作者：请输入文本</p>
+                    <div class="actions">
+                        <a href="maps/map1.html" class="btn">详情</a>
+                        <a href="assets/downloads/map1.zip" class="btn download-btn" download>下载</a>
+                    </div>
+                </div>
+                
+                <!-- 地图项目2 -->
+                <div class="map-card">
+                    <img src="assets/images/map2-thumb.jpg" alt="请输入文本">
+                    <h3>请输入文本</h3>
+                    <p>版本：请输入文本| 作者：请输入文本</p>
+                    <div class="actions">
+                        <a href="maps/map2.html" class="btn">详情</a>
+                        <a href="assets/downloads/map2.zip" class="btn download-btn" download>下载</a>
+                    </div>
+                </div>
+                <!-- And More... -->
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
 </html>
